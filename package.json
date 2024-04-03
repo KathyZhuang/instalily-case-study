@@ -13,6 +13,7 @@
     "date-fns": "^2.30.0",
     "framer-motion": "^10.16.4",
     "fs": "^0.0.1-security",
+    "jquery": "^3.7.1",
     "langchain": "^0.0.143",
     "marked": "^9.1.2",
     "mui": "^0.0.1",

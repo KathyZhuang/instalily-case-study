@@ -23,6 +23,13 @@ function ChatWindow() {
       scrollToBottom();
   }, [messages]);
 
+
+  // const [accuracy, setAccuracy] = useState(0);
+  // useEffect(() => {
+  //   // fetch("/").then(res => res.json()).then(data => {setAccuracy(data.accuracy) });
+  //   fetch("http://127.0.0.1:5000/").then(response => response.json());
+  // }, [])
+
   const handleSend = async (input) => {
     if (input.trim() !== "") {
       // Set user message
